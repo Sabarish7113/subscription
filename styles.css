@@ -1,0 +1,107 @@
+.nw
+{
+    height: 5rem;
+    background-color: whitesmoke;
+}
+p{
+    margin-top: -18px;
+}
+.nw2
+{
+    border-left:solid whitesmoke 2px;
+    border-right:solid whitesmoke 2px;
+    height: 150px;
+    margin-top: -20px;
+}
+.ck{
+    margin-left: -140px;
+    background-color: blueviolet;
+    color: white;
+}
+label
+{
+    margin: -150px;
+}
+.nw3{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.column {
+    width: 33%;
+    padding: 0 15px;
+  }
+  
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+  .card {
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 450px;
+    height: 380px;
+    background: white;
+    border-radius: 0px;
+    border: solid black 2px;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-title {
+    text-align: center;
+    font: normal normal bold 30px/84px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+  }
+  .card-text {
+    text-align: center;
+    font: normal normal bold 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+    padding: 5px;
+  }
+  form{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  label
+  {
+    font-size: x-large;
+  }
+  input
+  {
+    margin-top: 15px;
+    height: 2rem;
+    width: 20rem;
+  }
+  button
+  {
+    margin: 20px;
+
+    height:2rem ;
+    width:25rem ;
+    border-radius: 5px;
+    background-color: rgb(43, 220, 43);
+    border: none;
+  }
